@@ -1,0 +1,11 @@
+<!-- 
+  DITA Community Sample Doctypes
+  
+  Copyright (c) 2014 DITA Community
+  
+  Sample document type shells that integrate DITA Community domains
+  or otherwise demonstrate useful things.
+  -->
+<plugin id="org.dita-community.doctypes">
+  <feature extension="dita.specialization.catalog.relative" value="catalog.xml" type="file"/>
+</plugin>

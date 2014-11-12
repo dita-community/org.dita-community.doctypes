@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+  
+  <!-- domain modules -->
+  
+  <!-- Topic types -->
+  
+  <nextCatalog catalog="topic/catalog.xml"/>
+  
+  <!-- Map types -->
+  
+  <nextCatalog catalog="map/catalog.xml"/>
+  
+</catalog>

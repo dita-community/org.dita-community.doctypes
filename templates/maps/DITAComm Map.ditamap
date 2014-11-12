@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="urn:pubid:dita-community.org:doctypes:dita:rng:map:map.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<map>
+  <!-- Generic map with pubmap module integrated. -->
+  <topicgroup>
+    <keydef keys="topic-01" href="../topics/DITAComm%20Topic.xml"/>
+  </topicgroup>
+  <topicgroup>
+    <topicmeta>
+      <navtitle>Navtitle Within Topic Group</navtitle>
+      <dc-variable-definitions>
+        <dc-variable-definition name="vol-02">variable 2 defined in map</dc-variable-definition>
+      </dc-variable-definitions>
+    </topicmeta>
+    <topichead>
+      <topicmeta>
+        <navtitle>Navtitle Within Topic Head w/in Topic Group</navtitle>
+      </topicmeta>
+      <topicref keyref="topic-01" keys="chapter-01"/>
+    </topichead>
+  </topicgroup>
+</map>
