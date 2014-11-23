@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="urn:X-pubid:dita-community.org:doctypes:dita:rng:topic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE topic PUBLIC "urn:X-pubid:dita-community.org:doctypes:dita:topic" "topic.dtd">
 <topic 
   id="topic-id">
   <title/>  
