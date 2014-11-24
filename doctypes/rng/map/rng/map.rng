@@ -18,10 +18,10 @@ of technical communication domains.
          <moduleType>mapshell</moduleType>
          <moduleShortName>map</moduleShortName>
          <shellPublicIds>
-            <dtdShell>urn:X-pubid:dita-community.org:doctypes:dita:map</dtdShell>
-            <rncShell>urn:X-pubid:dita-community.org:doctypes:dita:rnc:map.rnc</rncShell>
-            <rngShell>urn:X-pubid:dita-community.org:doctypes:dita:rng:map.rng</rngShell>
-            <xsdShell>urn:X-pubid:dita-community.org:doctypes:dita:xsd:map.xsd</xsdShell>
+            <dtdShell>urn:pubid:dita-community.org:doctypes:dita:map</dtdShell>
+            <rncShell>urn:pubid:dita-community.org:doctypes:dita:rnc:map.rnc</rncShell>
+            <rngShell>urn:pubid:dita-community.org:doctypes:dita:rng:map.rng</rngShell>
+            <xsdShell>urn:pubid:dita-community.org:doctypes:dita:xsd:map.xsd</xsdShell>
          </shellPublicIds>
       </moduleMetadata>
   </moduleDesc>
@@ -80,7 +80,7 @@ of technical communication domains.
       <include href="urn:oasis:names:tc:dita:rng:softwareDomainMod.rng"/>
       <include href="urn:oasis:names:tc:dita:rng:uiDomainMod.rng"/>
       <include href="urn:oasis:names:tc:dita:rng:utilitiesDomainMod.rng"/>
-      <include href="urn:X-pubid:dita-community.org:doctypes:dita:rng:dc_variablesDomainMod.rng"/>
+      <include href="urn:pubid:dita-community.org:doctypes:dita:rng:dc_variablesDomainMod.rng"/>
       <include href="urn:oasis:names:tc:dita:rng:xmlDomainMod.rng" dita:since="1.3"/>    
   </div>
   <div>

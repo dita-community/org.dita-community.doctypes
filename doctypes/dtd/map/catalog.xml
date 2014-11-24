@@ -2,8 +2,8 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
 <!--DITA Map Shell-->
 
-   <public publicId="urn:X-pubid:dita-community.org:doctypes:dita:map"
+   <public publicId="urn:pubid:dita-community.org:doctypes:dita:map"
            uri="dtd/map.dtd"/>
-   <public publicId="urn:X-pubid:dita-community.org:doctypes:dita:map"
+   <public publicId="urn:pubid:dita-community.org:doctypes:dita:map"
            uri="dtd/map.dtd"/>
 </catalog>

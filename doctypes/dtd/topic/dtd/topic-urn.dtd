@@ -3,6 +3,7 @@
 <!-- DITA Community Sample Topic Shell                             -->
 <!-- Integrates the dc-variable domain in addition to full set     -->
 <!-- of technical communication domains and topic types.           -->
+<!-- Uses a URN to refer to the variables domain module.           -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->

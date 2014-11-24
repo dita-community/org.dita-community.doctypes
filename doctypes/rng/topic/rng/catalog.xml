@@ -2,13 +2,13 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"          
   prefer="public">  
 
-  <public publicId="urn:X-pubid:dita-community.org:doctypes:dita:rng:topic"
+  <public publicId="urn:pubid:dita-community.org:doctypes:dita:rng:topic"
     uri="topic.rng"
   />
-  <system systemId="urn:X-pubid:dita-community.org:doctypes:dita:rng:topic.rng"
+  <system systemId="urn:pubid:dita-community.org:doctypes:dita:rng:topic.rng"
     uri="topic.rng"
   />
-  <uri name="urn:X-pubid:dita-community.org:doctypes:dita:rng:topic.rng"
+  <uri name="urn:pubid:dita-community.org:doctypes:dita:rng:topic.rng"
     uri="topic.rng"
   />
 </catalog>  
