@@ -11,4 +11,14 @@
   <uri name="urn:pubid:dita-community.org:doctypes:dita:rng:topic.rng"
     uri="topic.rng"
   />
+
+  <public publicId="urn:pubid:dita-community.org:doctypes:dita:rng:topic-urn"
+    uri="topic-urn.rng"
+  />
+  <system systemId="urn:pubid:dita-community.org:doctypes:dita:rng:topic-urn"
+    uri="topic-urn.rng"
+  />
+  <uri name="urn:pubid:dita-community.org:doctypes:dita:rng:topic-urn"
+    uri="topic-urn.rng"
+  />
 </catalog>  

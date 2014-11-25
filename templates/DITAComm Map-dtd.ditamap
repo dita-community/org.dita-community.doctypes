@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map PUBLIC "urn:X-pubid:dita-community.org:doctypes:dita:map" "map.dtd" >
+<!DOCTYPE map PUBLIC "urn:pubid:dita-community.org:doctypes:dita:map" "map.dtd" >
 <map>
   <!-- Generic map with pubmap module integrated. -->
   <topicgroup>
-    <keydef keys="topic-01" href="../topics/DITAComm%20Topic.xml"/>
+<!--    <keydef keys="topic-01" href="../topics/DITAComm_Topic-dtd.xml"/>-->
   </topicgroup>
   <topicgroup>
     <topicmeta>
@@ -16,7 +16,11 @@
       <topicmeta>
         <navtitle>Navtitle Within Topic Head w/in Topic Group</navtitle>
       </topicmeta>
-      <topicref keyref="topic-01" keys="chapter-01"/>
+      <!-- WEK: With 1.8.5 this topicref does not result in an output topic
+                because the topic is flagged as resource-only in .job.xml.
+        -->
+<!--      <topicref keyref="topic-01" keys="chapter-01"/>-->
+      <topicref keys="chapter-01" href="topics/DITAComm_Topic-dtd.xml"/>
     </topichead>
   </topicgroup>
 </map>

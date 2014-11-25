@@ -78,6 +78,11 @@
          "urn:oasis:names:tc:dita:rng:utilitiesDomain.ent"
 >%ut-d-dec;
 
+<!ENTITY % dc_variables-d-dec
+  PUBLIC "urn:pubid:dita-community.org:doctypes:dita:modules:dc_variablesDomain:entities"
+         "urn:pubid:dita-community.org:doctypes:dita:rng:dc_variablesDomain.ent"
+>%dc_variables-d-dec;
+
 <!ENTITY % xml-d-dec
   PUBLIC "-//OASIS//ENTITIES DITA 1.3 XML Domain//EN"
          "urn:oasis:names:tc:dita:rng:xmlDomain.ent"
@@ -110,6 +115,7 @@
                          %pr-d-ph; |
                          %sw-d-ph; |
                          %ui-d-ph; |
+                         %dc_variables-d-ph; |
                          %equation-d-ph;
                         ">
 <!ENTITY % index-base   "index-base |
@@ -139,7 +145,11 @@
                          %relmgmt-d-metadata;
                         ">
 <!ENTITY % data         "data |
-                         %ut-d-data;
+                         %ut-d-data; |
+                         %dc_variables-d-data;
+                        ">
+<!ENTITY % text         "text |
+                         %dc_variables-d-text;
                         ">
 <!ENTITY % div          "div |
                          %equation-d-div;
@@ -187,6 +197,7 @@
                            &svg-d-att;
                            &ui-d-att;
                            &ut-d-att;
+                           &dc_variables-d-att;
                            &xml-d-att;
   "
 >
@@ -272,6 +283,11 @@
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Utilities Domain//EN"
          "urn:oasis:names:tc:dita:rng:utilitiesDomain.mod"
 >%ut-d-def;
+
+<!ENTITY % dc_variables-d-def
+  PUBLIC "urn:pubid:dita-community.org:doctypes:dita:modules:dc_variablesDomain"
+         "urn:pubid:dita-community.org:doctypes:dita:rng:dc_variablesDomain.mod"
+>%dc_variables-d-def;
 
 <!ENTITY % xml-d-def
   PUBLIC "-//OASIS//ELEMENTS DITA 1.3 XML Domain//EN"
