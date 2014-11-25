@@ -2,7 +2,7 @@
 <?xml-model href="urn:pubid:dita-community.org:doctypes:dita:rng:topic-urn" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <topic 
   id="topic-id">
-  <title/>  
+  <title>Topic 01 (RELAX NG)</title>  
   <shortdesc/>
   <prolog>
     <dc-variable-definitions>
