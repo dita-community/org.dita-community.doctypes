@@ -3,7 +3,7 @@
 <map>
   <!-- Generic map with pubmap module integrated. -->
   <topicgroup>
-    <keydef keys="topic-01" href="topics/DITAComm_Topic-dtd.xml"/>
+    <keydef keys="topic-01" href="../topics/DITAComm_Topic-dtd.xml"/>
   </topicgroup>
   <topicgroup>
     <topicmeta>
