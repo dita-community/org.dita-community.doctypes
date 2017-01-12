@@ -5,7 +5,7 @@
   <public publicId="urn:pubid:dita-community.org:doctypes:dita:rng:topic"
     uri="topic.rng"
   />
-  <system systemId="urn:pubid:dita-community.org:doctypes:dita:rng:topic.rng"
+  <system systemId="urn:pubid:dita-community.org:doctypes:dita:rng:topic"
     uri="topic.rng"
   />
   <uri name="urn:pubid:dita-community.org:doctypes:dita:rng:topic.rng"
